@@ -1,0 +1,10 @@
+<div class="youtube-player">
+  <div class="player-wrapper">
+    @if (!apiReady() && videoId()) {
+      <div class="placeholder">
+        <p>Loading YouTube player...</p>
+      </div>
+    }
+    <div id="youtube-player"></div>
+  </div>
+</div>

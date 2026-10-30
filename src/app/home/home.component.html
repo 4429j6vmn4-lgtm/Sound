@@ -1,0 +1,29 @@
+<header class="shell-header">
+  <nav class="shell-nav">
+    <a class="brand" routerLink="/">Sound Healing</a>
+  </nav>
+</header>
+
+<main class="shell-main">
+  <section class="hero">
+    <h1>Sound Healing</h1>
+    <p>Relax with healing frequencies and ambient mixes.</p>
+  </section>
+
+  <section class="players">
+    <div class="player-card">
+      <h2>YouTube Video</h2>
+      <p class="subtitle">Healing visuals and sound</p>
+      <app-youtube-player [videoId]="youtubeVideoId" />
+      <p class="hint">Replace <code>youtubeVideoId</code> in home.component.ts with your own YouTube video ID.</p>
+    </div>
+
+    <div class="player-card">
+      <h2>Mixcloud Sound</h2>
+      <p class="subtitle">Ambient healing mix</p>
+      <app-mixcloud-player [mixUrl]="mixcloudUrl" />
+      <p class="hint">Replace <code>mixcloudUrl</code> in home.component.ts with your own Mixcloud mix URL.</p>
+    </div>
+  </section>
+</main>
+
