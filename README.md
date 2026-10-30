@@ -1,6 +1,6 @@
-# SoundHealing
+# Sound
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+Angular YouTube and Mixcloud player built with Angular.
 
 ## Development server
 

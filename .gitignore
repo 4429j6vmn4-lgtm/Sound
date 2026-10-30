@@ -1,13 +1,27 @@
 # Compiled output
-/dist
-/tmp
-/out-tsc
+/dist/
+/out-tsc/
+/tmp/
+/coverage/
+/e2e/test-output/
 
 # Dependencies
-/node_modules
+/node_modules/
 
-# Angular cache
-/.angular
+# Environment files
+/.env
+
+# Angular cache and build artefacts
+/.angular/
+/.ng/
+/.angular-cli.json
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-error.log*
 
 # IDE and OS files
 .DS_Store
